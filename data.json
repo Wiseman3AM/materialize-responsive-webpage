@@ -6,7 +6,7 @@
     "city": {
         "name": "Shenzhen",
         "photo": "./images/city.jpeg",
-        "description": "Shenzhen is the one of the leading tech cities in the world, I would like to visit this city to view and experience what developments are currently happening in one of the cities which will shape the future of the world. CLICK IMAGE FOR MORE INFORMATION"
+        "description": "Shenzhen is the one of the leading tech cities in the world, I would like to visit this city to view and experience what developments are currently happening in one of the cities which will shape the future of the world."
     },
     "foreignLanguage": {
         "language": "Japanese",

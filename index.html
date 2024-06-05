@@ -38,10 +38,15 @@
                 float: right !important;
             }
         }
-        
-        .lf-pic{
+
+        @media (min-width: 960px) {
+            .lf-pic{
             float: right !important;
+            justify-self: start;
         }
+        }
+        
+       
 
         .backImage {
             background-image: url('./images/TBMFO.jpg');
@@ -71,10 +76,12 @@
 
 <body class="amber lighten-4">
 
+    
     <div>
         <div class="row">
             <h1 class="col s12  red accent-2">{{user.fullName}}</h1>
         </div>
+        <figure>
         <div class="row backImage">
             <div class="col s12 m6"></div>
             <div class="col s12 m4">
@@ -84,6 +91,8 @@
                 </a>
                 </div>
         </div>
+        <figcaption> CLICK IMAGES FOR MORE INFORMATION, BACKGROUND IMAGES NOT INCLUDED</figcaption>
+    </figure>
 
         <div class="row">
             <h2 class="col s12  red accent-2">{{city.name}}</h2>
@@ -222,6 +231,7 @@
 
     <footer class=" footer">
     <div class="foot-text">
+        <p><a href="conclusion.html"><img src="./images/conclusionICON.jpg" alt="Conclusion Icon" width="50px"> </a></p>
         <p>Mocha unit test:  <a href="https://wiseman3am.github.io/bootcamp-tests/">Tests</a></p>
         <p>Basic website:  <a href="https://wiseman3am.github.io/basic-website/"> SimpleGrid/Flexbox</a></p>
         <p>Copyright not reserved @2024</p>
